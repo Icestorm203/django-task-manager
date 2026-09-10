@@ -41,7 +41,7 @@ python manage.py createsuperuser
 ## 🐘 Подключение к PostgreSQL (Docker).
 PostgreSQL работает в контейнере db.
 
-Настройки подключения внутри Django:
+Настройки подключения внутри Django в файле settings.py:
 ```
 DATABASES = {
     'default': {
