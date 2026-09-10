@@ -128,8 +128,11 @@ Task.objects.filter(id=1).delete()
 
 ## 🧩 Management‑команда
 Файл: tasks/management/commands/close_tasks.py
+
 Запуск: 
-    python manage.py close_tasks
+```
+python manage.py close_tasks
+```
 
 ## 🧩 SQL‑примеры (JOIN, GROUP BY, SELECT)
 Файл: sql/sql_examples.sql
