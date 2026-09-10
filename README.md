@@ -24,6 +24,7 @@ docker compose up --build
 ```
 После запуска проект будет доступен по адресу:
 http://localhost:8000
+
 3. Войти в контейнер Django
 ```
 docker compose exec web bash
