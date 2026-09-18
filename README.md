@@ -18,7 +18,7 @@
 git clone https://github.com/Icestorm203/django-task-manager.git
 cd django-task-manager
 ```
-2. Собрать и запустить контейнеры
+2. Запустить Docker Desktop. Собрать и запустить контейнеры
 ```
 docker compose up --build
 ```
