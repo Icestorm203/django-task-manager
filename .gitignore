@@ -3,8 +3,7 @@ __pycache__/
 *.pyc
 
 # Virtual environment
-venv/
-env/
+.venv/
 
 # Django
 db.sqlite3
@@ -17,3 +16,5 @@ db.sqlite3
 # OS
 Thumbs.db
 .DS_Store
+
+venv.txt

@@ -18,25 +18,35 @@
 git clone https://github.com/Icestorm203/django-task-manager.git
 cd django-task-manager
 ```
-2. Запустить Docker Desktop. Собрать и запустить контейнеры
+2. Создать и активировать виртуальное окружение
+```
+python -m venv .venv
+.\.venv\Scripts\activate
+```
+Для powershell:
+```
+.\venv\Scripts\Activate.ps1
+```
+3. Запустить Docker Desktop. Собрать и запустить контейнеры
 ```
 docker compose up --build
 ```
 После запуска проект будет доступен по адресу:
 http://localhost:8000
 
-3. Войти в контейнер Django
+4. Через другой терминал войти в контейнер Django
 ```
 docker compose exec web bash
 ```
-4. Выполнить миграции
+5. Выполнить миграции
 ```
 python manage.py migrate
 ```
-5. Создать суперпользователя
+6. Создать суперпользователя
 ```
 python manage.py createsuperuser
 ```
+После этого можно будет зайти в admin
 
 ## 🐘 Подключение к PostgreSQL (Docker).
 PostgreSQL работает в контейнере db.
